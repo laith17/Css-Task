@@ -1,0 +1,38 @@
+h2 {
+    text-decoration: underline;
+}
+
+.text1 {
+    color: blue;
+}
+
+.text-span1 {
+    color: orange;
+    text-decoration: underline;
+}
+
+mark {
+    text-decoration: underline;   
+    color: purple;       
+}
+
+ul .list1-Item {
+    font-weight: bold;
+}
+
+ul span {
+    color: red;
+    text-decoration: underline;
+}
+
+.list2 {
+    color: blue;
+}
+
+ul .list2-Item {
+    font-weight: bold;
+}
+
+.list3 {
+    list-style: none;
+}

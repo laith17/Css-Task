@@ -1,0 +1,51 @@
+.container{
+    background-color: #fffff1;
+    padding: 10px;
+    width: 700px;
+    height: 450px;
+    border-right: 3px solid #000;
+    position: relative;
+}
+
+.container .text-box div {
+    background-color: #eaeaed;
+    width: 31%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.container .text-box box3 {
+    height: 140px;
+}
+
+.text-box {
+    position: relative;
+    padding: 5px;
+}
+
+.box1, .box2, .box3, .floating-box {
+    position: absolute;
+}
+
+.box2 {
+    left: 233px;
+}
+
+.box3 {
+    right: 22px;
+}
+
+.floating-box {
+    background-color: #fffff1;
+    font-weight: bold;
+    top: 36%;
+    padding: 10px 0 10px 4px;
+}
+
+.floating-article {           
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 5px 0;
+    height: 50px;
+    overflow: auto;
+}
