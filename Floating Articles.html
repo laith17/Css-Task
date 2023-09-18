@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Articles</title>
+
+    <style>
+        .container{
+            background-color: #fffff1;
+            padding: 10px;
+            width: 700px;
+            height: 450px;
+            border-right: 3px solid #000;
+            position: relative;
+        }
+
+        .container .text-box div {
+            background-color: #eaeaed;
+            width: 31%;
+            height: 280px;
+            overflow: hidden;
+        }
+
+        .container .text-box box3 {
+            height: 140px;
+        }
+
+        .text-box {
+            position: relative;
+            padding: 5px;
+        }
+
+        .box1, .box2, .box3, .floating-box {
+            position: absolute;
+        }
+
+        .box2 {
+            left: 233px;
+        }
+        
+        .box3 {
+            right: 22px;
+        }
+
+        .floating-box {
+            background-color: #fffff1;
+            font-weight: bold;
+            top: 36%;
+            padding: 10px 0 10px 4px;
+        }
+
+        .floating-article {           
+            border-top: 2px solid #000;
+            border-bottom: 2px solid #000;
+            padding: 5px 0;
+            height: 50px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Floating Articles</h3>
+        <div class="text-box">
+            <div class="box1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos rerum odio distinctio blanditiis illum maiores qui vel voluptate. Labore ea doloribus aut repellat maxime, magnam in vel vero aspernatur odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aut nisi doloribus provident a labore quis eveniet inventore beatae at, quibusdam, perspiciatis aliquam necessitatibus commodi reprehenderit optio excepturi esse in, quibusdam, perspiciatis aliquam necessitatibus commodi reprehenderit optio excepturi esse in?</div>
+            <div class="box2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos rerum odio distinctio blanditiis illum maiores qui vel voluptate. Labore ea doloribus aut repellat maxime, magnam in vel vero aspernatur odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aut nisi doloribus provident a labore quis eveniet inventore beatae at, quibusdam, perspiciatis aliquam necessitatibus commodi reprehenderit optio excepturi esse in, quibusdam, perspiciatis aliquam necessitatibus commodi reprehenderit optio excepturi esse in?</div>
+            <div class="box3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos rerum odio distinctio blanditiis illum maiores qui vel voluptate. Labore ea doloribus aut repellat maxime, magnam in vel vero aspernatur odit!</div>
+        </div>
+        <div class="floating-box">
+            <div class="floating-article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi delectus architecto possimus corrupti ab eos deleniti illum minus quas rem at, ad cupiditate consequuntur optio omnis inventore, non ullam sint? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta autem necessitatibus nostrum sit officiis! Illo mollitia tempore nisi vitae voluptate sed id veritatis perspiciatis, provident est, voluptates voluptatibus quaerat hic.</div>
+        </div>
+    </div>
+</body>
+</html>
